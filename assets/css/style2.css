@@ -1,0 +1,75 @@
+body {
+  background-image: url("ent1.jpg");
+  background-size: cover;
+  height: 50px;
+}
+
+html {
+  height: 100%;
+}
+
+.card {
+  border-radius: 3%;
+}
+/* it's 2am im done*/
+nav {
+  color: white;
+  font-size: 18px;
+  height: auto;
+}
+
+.nav-link, nav-link:visited{
+  color: rgb(214, 213, 213);
+}
+
+.nav-link:hover{
+  color:white;
+}
+
+.row{
+  margin: 0px;
+}
+
+.footer {
+  background-color: rgb(53, 52, 52);
+  color: cornsilk;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  height: 2.25rem;
+  padding: 6px;
+}
+
+#privacy {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.75rem;
+  padding-top: 2px;
+}
+
+.card {
+  margin: 25px auto;
+  text-align: center;
+  display: inline-block;
+}
+
+.column {
+  width: 50%;
+  padding: 10px;
+  margin: 22px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  margin-right: 35px;
+}
+
+.card-body {
+  background-color: rgba(169, 169, 169, 0.473);
+}
